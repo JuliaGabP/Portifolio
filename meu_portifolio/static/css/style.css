@@ -98,7 +98,7 @@ footer {
     font-size: 1.15em; /* Aumenta o texto para uma leitura mais confortável */
     line-height: 1.8; /* Melhora o espaçamento entre as linhas */
 }
-/* Estilo para a seção de materiais de inglês */
+/* Estilo para a seção de materiais */
 .base-material {
     display: flex;
     align-items: center;
@@ -108,12 +108,13 @@ footer {
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
-/* Estilo para a imagem da apostila */
+/* Estilo para a imagem */
 .base-image img {
     width: 150px; /* Tamanho médio da imagem */
     height: auto;
     border-radius: 5px; /* Bordas levemente arredondadas */
     margin-right: 20px; /* Espaço entre a imagem e o texto */
+    margin-left: 40px;
 }
 /* Estilo para o link e a descrição */
 .base-info {
