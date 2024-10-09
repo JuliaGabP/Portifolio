@@ -98,38 +98,6 @@ footer {
     font-size: 1.15em; /* Aumenta o texto para uma leitura mais confortável */
     line-height: 1.8; /* Melhora o espaçamento entre as linhas */
 }
-/* Estilo para a seção de materiais */
-.base-material {
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px; /* Espaço abaixo da seção */
-    padding: 20px;
-    background-color: #f9f9f9; /* Cor de fundo leve para destacar a seção */
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
-}
-/* Estilo para a imagem */
-.base-image img {
-    width: 150px; /* Tamanho médio da imagem */
-    height: auto;
-    border-radius: 5px; /* Bordas levemente arredondadas */
-    margin-right: 20px; /* Espaço entre a imagem e o texto */
-    margin-left: 40px;
-}
-/* Estilo para o link e a descrição */
-.base-info {
-    max-width: 600px; /* Limita a largura da descrição */
-}
-.base-info h3 {
-    margin: 0;
-    font-size: 1.5em; /* Tamanho maior do título/link */
-    margin-bottom: 10px;
-}
-.base-info p {
-    font-size: 1.1em; /* Tamanho confortável para a descrição */
-    line-height: 1.6; /* Melhora o espaçamento entre as linhas */
-    text-align: justify;
-}
 /* Estilo para os ícones das redes sociais */
 .social-links {
     display: flex;           /* Utiliza flexbox */
@@ -167,4 +135,76 @@ footer {
 
 .language-icon:hover {
     transform: scale(1.1); /* Aumenta o ícone levemente ao passar o mouse */
+}
+/* Estilos do rodapé de visitas */
+.visits-footer {
+    background-color: #D3B5E5; /* Cor lilás para combinar com o tema */
+    color: AliceBlue; /* Texto branco */
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    position: fixed; /* Fixa o rodapé no final da página */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.visits-footer p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.visits-count {
+    font-weight: bold;
+    font-size: 18px; /* Destaca o número de visitas */
+    color: darkmagenta; /* Amarelo para destacar o número */
+}
+/* Container para os certificados */
+.base-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas de tamanhos iguais */
+    gap: 30px; /* Espaço entre os certificados */
+    margin: 20px 0; /* Margem para dar espaço ao redor */
+}
+
+/* Cada certificado, com estilo já aplicado */
+.base-material {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para a imagem */
+.base-image img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+/* Estilo para o link e a descrição */
+.base-info {
+    max-width: 500px; /* Limita a largura da descrição */
+}
+
+.base-info h3 {
+    margin: 0;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.base-info p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .certificates-grid {
+        grid-template-columns: 1fr; /* Em telas pequenas, apenas uma coluna */
+    }
 }

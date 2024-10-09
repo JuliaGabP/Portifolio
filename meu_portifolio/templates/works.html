@@ -4,32 +4,33 @@
 
 {% block content %}
     <h2>Trabalhos Acadêmicos - Iniciação Científica</h2>
+    <div class="base-grid">
+        <div class="base-material">
+            <div class="base-image">
+                <!-- Imagem ao lado do link -->
+                <img src="{{ url_for('static', filename='img/series.jpg') }}" alt="Simbolo do somatório">
+            </div>
 
-    <div class="base-material">
-        <div class="base-image">
-            <!-- Imagem ao lado do link -->
-            <img src="{{ url_for('static', filename='img/series.jpg') }}" alt="Simbolo do somatório">
+            <div class="base-info">
+                <!-- Link para o PDF e descrição -->
+                <h3><a href="/pdfs/trabalho1.pdf" target="_blank">Séries</a></h3>
+                <p>
+                    Séries matemáticas são somas de uma sequência de termos, e podem ser finitas ou infinitas. Elas aparecem em diversos campos da matemática e das ciências aplicadas, como na física, na economia e na computação. Entre os tipos mais conhecidos estão as séries aritméticas, onde os termos têm uma diferença constante, e as séries geométricas, com razão constante entre os termos. Um exemplo importante de série infinita é a série de Taylor, que aproxima funções com polinômios infinitos, e tem aplicações na análise e no cálculo. As séries são usadas para resolver equações diferenciais, prever comportamentos de sistemas e modelar fenômenos que envolvem crescimento, decaimento ou padrões repetitivos.
+                </p>
+            </div>
         </div>
-
-        <div class="base-info">
-            <!-- Link para o PDF e descrição -->
-            <h3><a href="/pdfs/trabalho1.pdf" target="_blank">Séries</a></h3>
-            <p>
-                Séries matemáticas são somas de uma sequência de termos, e podem ser finitas ou infinitas. Elas aparecem em diversos campos da matemática e das ciências aplicadas, como na física, na economia e na computação. Entre os tipos mais conhecidos estão as séries aritméticas, onde os termos têm uma diferença constante, e as séries geométricas, com razão constante entre os termos. Um exemplo importante de série infinita é a série de Taylor, que aproxima funções com polinômios infinitos, e tem aplicações na análise e no cálculo. As séries são usadas para resolver equações diferenciais, prever comportamentos de sistemas e modelar fenômenos que envolvem crescimento, decaimento ou padrões repetitivos.
-            </p>
-        </div>
-        
-        <div class="base-image">
-            <!-- Imagem ao lado do link -->
-            <img src="{{ url_for('static', filename='img/google.jpg') }}" alt="Logo Google">
-        </div>
-
-        <div class="base-info">
-            <!-- Link para o PDF e descrição -->
-            <h3><a href="/pdfs/trabalho2.pdf" target="_blank">Mecanismos de busca da internet</a></h3>
-            <p>
-                O PageRank é um algoritmo desenvolvido por Larry Page e Sergey Brin, fundadores do Google, para ordenar páginas da web com base em sua relevância. Ele parte do princípio de que páginas com muitos links recebidos de outras páginas relevantes também são importantes. O algoritmo trata cada link como um "voto" de confiança. Quanto mais links uma página recebe, e quanto maior a relevância de quem está linkando, maior será sua pontuação no PageRank. O mecanismo de busca do Google utiliza o PageRank como parte do processo de ranqueamento, combinando-o com outros fatores como a relevância do conteúdo para a consulta. A ideia central é que o PageRank simula um "navegador aleatório", que segue links pela internet, atribuindo maior importância às páginas mais visitadas indiretamente por esse processo.
-            </p>
+        <div class="base-material">
+            <div class="base-image">
+                <!-- Imagem ao lado do link -->
+                <img src="{{ url_for('static', filename='img/google.jpg') }}" alt="Logo Google">
+            </div>
+            <div class="base-info">
+                <!-- Link para o PDF e descrição -->
+                <h3><a href="/pdfs/trabalho2.pdf" target="_blank">Mecanismos de busca da internet</a></h3>
+                <p>
+                    O PageRank é um algoritmo desenvolvido por Larry Page e Sergey Brin, fundadores do Google, para ordenar páginas da web com base em sua relevância. Ele parte do princípio de que páginas com muitos links recebidos de outras páginas relevantes também são importantes. O algoritmo trata cada link como um "voto" de confiança. Quanto mais links uma página recebe, e quanto maior a relevância de quem está linkando, maior será sua pontuação no PageRank. O mecanismo de busca do Google utiliza o PageRank como parte do processo de ranqueamento, combinando-o com outros fatores como a relevância do conteúdo para a consulta. A ideia central é que o PageRank simula um "navegador aleatório", que segue links pela internet, atribuindo maior importância às páginas mais visitadas indiretamente por esse processo.
+                </p>
+            </div>
         </div>
     </div>
 {% endblock %}

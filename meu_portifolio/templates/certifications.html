@@ -1,10 +1,193 @@
 {% extends "base.html" %}
 
-{% block title %}Certificações{% endblock %}
+{% block title %}Minhas Certificações{% endblock %}
 
 {% block content %}
-    <h2>Certificações</h2>
-    <ul>
-        <li><a href="/pdfs/certificacao1.pdf" target="_blank">Certificação 1</a></li>
-    </ul>
+    <h2>Minhas Certificações</h2>
+    <div class="base-grid">
+        <!-- Certificado 1 -->
+        <div class="base-material">
+            <div class="base-image">
+                <!-- Imagem do curso -->
+                <img src="{{ url_for('static', filename='img/coursera_logo.jpg') }}" alt="Logo Coursera">
+            </div>
+            <div class="base-info">
+                <!-- Link para o curso e descrição -->
+                <h3><a href="/pdfs/certificado1.pdf" target="_blank">Administração de Sistemas e Serviços de Infraestrutura de TI</a></h3>
+            </div>
+        </div>
+        <!-- Certificado 2 -->
+        <div class="base-material">
+            <div class="base-image">
+                <!-- Imagem do curso -->
+                <img src="{{ url_for('static', filename='img/coursera_logo.jpg') }}" alt="Logo Coursera">
+            </div>
+            <div class="base-info">
+                <!-- Link para o curso e descrição -->
+                <h3><a href="/pdfs/certificado2.pdf" target="_blank">Analisar os dados para responder às perguntas</a></h3>
+            </div>
+        </div>
+        <!-- Certificado 3 -->
+        <div class="base-material">
+            <div class="base-image">
+                <!-- Imagem do curso -->
+                <img src="{{ url_for('static', filename='img/coursera_logo.jpg') }}" alt="Logo Coursera">
+            </div>
+            <div class="base-info">
+                <!-- Link para o curso e descrição -->
+                <h3><a href="/pdfs/certificado3.pdf" target="_blank">Processar os dados para limpá-los</a></h3>
+            </div>
+        </div>
+        <!-- Certificado 4 -->
+        <div class="base-material">
+            <div class="base-image">
+                <!-- Imagem do curso -->
+                <img src="{{ url_for('static', filename='img/coursera_logo.jpg') }}" alt="Logo Coursera">
+            </div>
+            <div class="base-info">
+                <!-- Link para o curso e descrição -->
+                <h3><a href="/pdfs/certificado4.pdf" target="_blank">Sistemas Operacionais e Você: Tornando-se um Usuário Avançado</a></h3>
+            </div>
+        </div>
+        <!-- Certificado 5 -->
+        <div class="base-material">
+            <div class="base-image">
+                <!-- Imagem do curso -->
+                <img src="{{ url_for('static', filename='img/coursera_logo.jpg') }}" alt="Logo Coursera">
+            </div>
+            <div class="base-info">
+                <!-- Link para o curso e descrição -->
+                <h3><a href="/pdfs/certificado5.pdf" target="_blank">Preparar os Dados para Exploração</a></h3>
+            </div>
+        </div>
+        <!-- Certificado 6 -->
+        <div class="base-material">
+            <div class="base-image">
+                <!-- Imagem do curso -->
+                <img src="{{ url_for('static', filename='img/coursera_logo.jpg') }}" alt="Logo Coursera">
+            </div>
+            <div class="base-info">
+                <!-- Link para o curso e descrição -->
+                <h3><a href="/pdfs/certificado6.pdf" target="_blank">Estrutura e Funcionamento das Redes de Computadores</a></h3>
+            </div>
+        </div>
+        <!-- Certificado 7 -->
+        <div class="base-material">
+            <div class="base-image">
+                <!-- Imagem do curso -->
+                <img src="{{ url_for('static', filename='img/coursera_logo.jpg') }}" alt="Logo Coursera">
+            </div>
+            <div class="base-info">
+                <!-- Link para o curso e descrição -->
+                <h3><a href="/pdfs/certificado7.pdf" target="_blank">Fazer perguntas para tomar decisões com base em dados</a></h3>
+            </div>
+        </div>
+        <!-- Certificado 8 -->
+        <div class="base-material">
+            <div class="base-image">
+                <!-- Imagem do curso -->
+                <img src="{{ url_for('static', filename='img/coursera_logo.jpg') }}" alt="Logo Coursera">
+            </div>
+            <div class="base-info">
+                <!-- Link para o curso e descrição -->
+                <h3><a href="/pdfs/certificado8.pdf" target="_blank">Fundamentos do Suporte Técnico</a></h3>
+            </div>
+        </div>
+        <!-- Certificado 9 -->
+        <div class="base-material">
+            <div class="base-image">
+                <!-- Imagem do curso -->
+                <img src="{{ url_for('static', filename='img/coursera_logo.jpg') }}" alt="Logo Coursera">
+            </div>
+
+            <div class="base-info">
+                <!-- Link para o curso e descrição -->
+                <h3><a href="/pdfs/certificado9.pdf" target="_blank">Fundamentos: dados em todos os lugares</a></h3>
+            </div>
+        </div>
+        <!-- Certificado 10 -->
+        <div class="base-material">
+            <div class="base-image">
+                <!-- Imagem do curso -->
+                <img src="{{ url_for('static', filename='img/mackenzie_logo.jpg') }}" alt="Logo Mackenzie">
+            </div>
+
+            <div class="base-info">
+                <!-- Link para o curso e descrição -->
+                <h3><a href="/pdfs/certificado10.pdf" target="_blank">Metodologias ativas e educação híbrida</a></h3>
+            </div>
+        </div>
+        <!-- Certificado 11 -->
+        <div class="base-material">
+            <div class="base-image">
+                <!-- Imagem do curso -->
+                <img src="{{ url_for('static', filename='img/mackenzie_logo.jpg') }}" alt="Logo Mackenzie">
+            </div>
+
+            <div class="base-info">
+                <!-- Link para o curso e descrição -->
+                <h3><a href="/pdfs/certificado11.pdf" target="_blank">Tomada de decisões guiadas por dados</a></h3>
+            </div>
+        </div>
+        <!-- Certificado 12 -->
+        <div class="base-material">
+            <div class="base-image">
+                <!-- Imagem do curso -->
+                <img src="{{ url_for('static', filename='img/mackenzie_logo.jpg') }}" alt="Logo Mackenzie">
+            </div>
+
+            <div class="base-info">
+                <!-- Link para o curso e descrição -->
+                <h3><a href="/pdfs/certificado12.pdf" target="_blank">Estratégia corporativa e gestão de projetos</a></h3>
+            </div>
+        </div>
+        <!-- Certificado 13 -->
+        <div class="base-material">
+            <div class="base-image">
+                <!-- Imagem do curso -->
+                <img src="{{ url_for('static', filename='img/mackenzie_logo.jpg') }}" alt="Logo Mackenzie">
+            </div>
+
+            <div class="base-info">
+                <!-- Link para o curso e descrição -->
+                <h3><a href="/pdfs/certificado13.pdf" target="_blank">Estratégia empresarial</a></h3>
+            </div>
+        </div>
+        <!-- Certificado 14 -->
+        <div class="base-material">
+            <div class="base-image">
+                <!-- Imagem do curso -->
+                <img src="{{ url_for('static', filename='img/mackenzie_logo.jpg') }}" alt="Logo Mackenzie">
+            </div>
+
+            <div class="base-info">
+                <!-- Link para o curso e descrição -->
+                <h3><a href="/pdfs/certificado14.pdf" target="_blank">Gestão de equipes remotas</a></h3>
+            </div>
+        </div>
+        <!-- Certificado 15 -->
+        <div class="base-material">
+            <div class="base-image">
+                <!-- Imagem do curso -->
+                <img src="{{ url_for('static', filename='img/mackenzie_logo.jpg') }}" alt="Logo Mackenzie">
+            </div>
+
+            <div class="base-info">
+                <!-- Link para o curso e descrição -->
+                <h3><a href="/pdfs/certificado15.pdf" target="_blank">Inovação na era digital</a></h3>
+            </div>
+        </div>
+        <!-- Certificado 16 -->
+        <div class="base-material">
+            <div class="base-image">
+                <!-- Imagem do curso -->
+                <img src="{{ url_for('static', filename='img/mackenzie_logo.jpg') }}" alt="Logo Mackenzie">
+            </div>
+
+            <div class="base-info">
+                <!-- Link para o curso e descrição -->
+                <h3><a href="/pdfs/certificado16.pdf" target="_blank">Inteligência artificial e ferramentas avançadas de ciência de dados</a></h3>
+            </div>
+        </div>
+    </div>
 {% endblock %}
