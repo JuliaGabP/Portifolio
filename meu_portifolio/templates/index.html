@@ -13,16 +13,31 @@
             minhas principais áreas de interesse.
         </p>
         <p>
+            Estou sempre buscando aprender e aprimorar minhas habilidades, e no momento 
+            estou me dedicando a aprimorar meu <strong>inglês</strong>.
             No meu dia a dia, faço uso de diversas linguagens de programação, incluindo <strong>C</strong>, <strong>Python</strong>, 
-            <strong>HTML</strong> e <strong>CSS</strong>. Estou sempre buscando aprender e aprimorar minhas habilidades, e no momento 
-            estou também me dedicando a aprimorar meu <strong>inglês</strong>.
+            <strong>HTML</strong> e <strong>CSS</strong>. 
         </p>
+
+        <!-- Novos ícones das linguagens de programação -->
+        <div class="language-icons">
+            <img src="{{ url_for('static', filename='img/c_icon.png') }}" alt="C" class="language-icon">
+            <img src="{{ url_for('static', filename='img/python_icon.png') }}" alt="Python" class="language-icon">
+            <img src="{{ url_for('static', filename='img/html_icon.png') }}" alt="HTML" class="language-icon">
+            <img src="{{ url_for('static', filename='img/css_icon.png') }}" alt="CSS" class="language-icon">
+        </div>
+
         <p>
-            Para saber mais sobre meus projetos e acompanhar meu desenvolvimento, sinta-se à vontade para visitar meu 
-            <a href="https://github.com/JuliaGabP" target="_blank">GitHub</a>, onde publico alguns dos trabalhos e experimentos 
-            que faço.
+            Para saber mais sobre meus projetos e acompanhar meu desenvolvimento, sinta-se à vontade para visitar meus perfis:
         </p>
+        <div class="social-links">
+            <a href="https://github.com/JuliaGabP" target="_blank">
+                <img src="{{ url_for('static', filename='img/github_icon.png') }}" alt="GitHub" class="social-icon">
+            </a>
+            <a href="https://www.instagram.com/juliaga.briela" target="_blank">
+                <img src="{{ url_for('static', filename='img/instagram_icon.png') }}" alt="Instagram" class="social-icon">
+            </a>
+        </div>
     </div>
 </div>
-
 {% endblock %}

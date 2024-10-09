@@ -99,7 +99,7 @@ footer {
     line-height: 1.8; /* Melhora o espaçamento entre as linhas */
 }
 /* Estilo para a seção de materiais de inglês */
-.english-material {
+.base-material {
     display: flex;
     align-items: center;
     margin-bottom: 30px; /* Espaço abaixo da seção */
@@ -109,53 +109,61 @@ footer {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
 /* Estilo para a imagem da apostila */
-.english-image img {
+.base-image img {
     width: 150px; /* Tamanho médio da imagem */
     height: auto;
     border-radius: 5px; /* Bordas levemente arredondadas */
     margin-right: 20px; /* Espaço entre a imagem e o texto */
 }
 /* Estilo para o link e a descrição */
-.english-info {
+.base-info {
     max-width: 600px; /* Limita a largura da descrição */
 }
-.english-info h3 {
+.base-info h3 {
     margin: 0;
     font-size: 1.5em; /* Tamanho maior do título/link */
     margin-bottom: 10px;
 }
-.english-info p {
+.base-info p {
     font-size: 1.1em; /* Tamanho confortável para a descrição */
     line-height: 1.6; /* Melhora o espaçamento entre as linhas */
     text-align: justify;
 }
-/* Estilo para a seção de materiais de cursos */
-.course-material {
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px; /* Espaço entre os blocos de curso */
-    padding: 20px;
-    background-color: #f9f9f9; /* Fundo leve para destacar */
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+/* Estilo para os ícones das redes sociais */
+.social-links {
+    display: flex;           /* Utiliza flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    margin-top: 20px;
 }
-/* Estilo para a imagem do curso */
-.course-image img {
-    width: 150px; /* Tamanho médio da imagem */
+.social-links a {
+    margin-right: 20px; /* Espaço entre os ícones */
+}
+.social-icon {
+    width: 40px; /* Tamanho dos ícones */
     height: auto;
-    border-radius: 5px; /* Bordas arredondadas */
-    margin-right: 20px; /* Espaço entre a imagem e o texto */
+    transition: transform 0.2s; /* Efeito de transição suave ao passar o mouse */
 }
-/* Estilo para o link e a descrição */
-.course-info {
-    max-width: 600px; /* Limita a largura da descrição */
+.social-icon:hover {
+    transform: scale(1.1); /* Aumenta o ícone levemente ao passar o mouse */
 }
-.course-info h3 {
-    margin: 0;
-    font-size: 1.5em; /* Tamanho maior do título/link */
-    margin-bottom: 10px;
+/* Estilo para os ícones das linguagens de programação */
+.language-icons {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    margin-top: 10px;        /* Espaço acima dos ícones */
 }
-.course-info p {
-    font-size: 1.1em; /* Tamanho confortável para a descrição */
-    line-height: 1.6; /* Melhora o espaçamento entre as linhas */
+
+.language-icon {
+    width: 40px;   /* Tamanho dos ícones */
+    height: auto;
+    margin-right: 15px; /* Espaço entre os ícones */
+    transition: transform 0.2s;
+}
+
+.language-icon:last-child {
+    margin-right: 0; /* Remove o espaçamento do último ícone */
+}
+
+.language-icon:hover {
+    transform: scale(1.1); /* Aumenta o ícone levemente ao passar o mouse */
 }

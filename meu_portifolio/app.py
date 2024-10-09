@@ -22,6 +22,11 @@ def courses():
 def english():
     return render_template('english.html')
 
+# Rota para a página de certificações
+@app.route('/certifications')
+def certifications():
+    return render_template('certifications.html')
+
 # Rota para abrir um arquivo PDF de trabalho
 @app.route('/pdfs/<path:filename>')
 def download_file(filename):
