@@ -1,4 +1,4 @@
-# Portifólio
+# Portfólio
 
 Este repositório contém uma página web pessoal que exibe minhas certificações e trabalhos acadêmicos realizados ao longo do meu curso de Engenharia de Software. O projeto inclui uma página de perfil, certificações, trabalhos acadêmicos e links para minhas redes sociais e portfólio de projetos.
 
