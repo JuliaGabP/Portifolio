@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block title %}Cursos Online Gratuitos{% endblock %}
+
+{% block content %}
+    <h2>Cursos Online Gratuitos</h2>
+
+    <!-- Curso 1 - Coursera -->
+    <div class="course-material">
+        <div class="course-image">
+            <!-- Imagem do curso -->
+            <img src="{{ url_for('static', filename='img/coursera_logo.jpg') }}" alt="Coursera">
+        </div>
+
+        <div class="course-info">
+            <!-- Link para o curso e descrição -->
+            <h3><a href="https://www.coursera.org/" target="_blank">Coursera</a></h3>
+            <p>
+                A Coursera oferece uma vasta gama de cursos em diversas áreas, como ciência da computação, artes, ciências
+                sociais e mais. Muitos dos cursos são gratuitos e de universidades renomadas ao redor do mundo.
+            </p>
+        </div>
+    </div>
+
+    <!-- Curso 2 - IFRGS -->
+    <div class="course-material">
+        <div class="course-image">
+            <!-- Imagem do curso -->
+            <img src="{{ url_for('static', filename='img/ifrgs_logo.jpg') }}" alt="IFRGS">
+        </div>
+
+        <div class="course-info">
+            <!-- Link para o curso e descrição -->
+            <h3><a href="https://moodle.ifrs.edu.br/course/" target="_blank">IFRS</a></h3>
+            <p>
+                O IFRGS oferece cursos gratuitos e online de uma instituição renomada no Brasil, cobrindo áreas de conhecimento
+                como tecnologia, educação e gestão. Perfeito para quem deseja qualificação sem custos.
+            </p>
+        </div>
+    </div>
+
+    <!-- Curso 3 - Curso em Vídeo -->
+    <div class="course-material">
+        <div class="course-image">
+            <!-- Imagem do curso -->
+            <img src="{{ url_for('static', filename='img/cursoemvideo_logo.jpg') }}" alt="Curso em Vídeo">
+        </div>
+
+        <div class="course-info">
+            <!-- Link para o curso e descrição -->
+            <h3><a href="https://www.cursoemvideo.com/" target="_blank">Curso em Vídeo</a></h3>
+            <p>
+                O Curso em Vídeo é especializado em oferecer conteúdo gratuito focado em tecnologia, como desenvolvimento web,
+                programação e banco de dados. Ideal para quem quer começar na área de TI com uma didática simples e acessível.
+            </p>
+        </div>
+    </div>
+
+{% endblock %}

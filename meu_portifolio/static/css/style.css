@@ -1,0 +1,161 @@
+/* Define a cor lilás para o cabeçalho e rodapé */
+header {
+    background-color: #D8BFD8; /* Lilás claro */
+    color: black; /* Cor do texto no cabeçalho */
+    padding: 20px;
+    text-align: center;
+}
+/* Define uma tonalidade diferente de lilás para a barra de navegação */
+nav {
+    background-color: #9370DB; /* Tonalidade mais escura de lilás */
+    padding: 10px;
+}
+/* Estilos para os links do menu de navegação */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+nav ul li a:hover {
+    background-color: #BA55D3; /* Um lilás ainda mais escuro para o hover */
+    border-radius: 5px;
+}
+/* Define o corpo do site como branco */
+body {
+    background-color: white; /* Fundo branco */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+/* Espaçamento para o conteúdo principal */
+main {
+    padding: 20px;
+}
+/* Garante que o rodapé fique no final da página */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+/* O conteúdo principal ocupa todo o espaço disponível */
+main {
+    flex: 1;
+    padding: 20px;
+}
+/* Rodapé fixo ao final da página com altura reduzida */
+footer {
+    background-color: #D8BFD8; /* Lilás claro */
+    color: black;
+    padding: 10px; /* Altura mais ajustada */
+    text-align: center;
+    font-size: 0.9em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Centraliza a seção de perfil (imagem + texto) */
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Para alinhar a imagem e o texto um abaixo do outro */
+    padding: 40px;
+    min-height: 60vh; /* Faz a seção ocupar 80% da altura da tela para centralização vertical */
+    text-align: center; /* Centraliza o texto */
+    background-color: white; /* Mantém o fundo branco */
+}
+/* Aumenta o tamanho da imagem de perfil */
+.profile-image img {
+    width: 200px; /* Aumenta o tamanho da imagem */
+    height: auto;
+    border-radius: 25%; /* Mantém a imagem circular */
+    margin-bottom: 20px; /* Espaçamento entre a imagem e o texto */
+}
+/* Texto ao lado da imagem */
+.profile-text {
+    max-width: 700px; /* Limita a largura do texto */
+    margin: 0 auto; /* Garante que o texto esteja centralizado */
+    text-align: justify; /* Alinha o texto em formato justificado */
+}
+.profile-text h2 {
+    font-size: 2em; /* Título maior */
+    margin-bottom: 15px;
+}
+.profile-text p {
+    font-size: 1.15em; /* Aumenta o texto para uma leitura mais confortável */
+    line-height: 1.8; /* Melhora o espaçamento entre as linhas */
+}
+/* Estilo para a seção de materiais de inglês */
+.english-material {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px; /* Espaço abaixo da seção */
+    padding: 20px;
+    background-color: #f9f9f9; /* Cor de fundo leve para destacar a seção */
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+/* Estilo para a imagem da apostila */
+.english-image img {
+    width: 150px; /* Tamanho médio da imagem */
+    height: auto;
+    border-radius: 5px; /* Bordas levemente arredondadas */
+    margin-right: 20px; /* Espaço entre a imagem e o texto */
+}
+/* Estilo para o link e a descrição */
+.english-info {
+    max-width: 600px; /* Limita a largura da descrição */
+}
+.english-info h3 {
+    margin: 0;
+    font-size: 1.5em; /* Tamanho maior do título/link */
+    margin-bottom: 10px;
+}
+.english-info p {
+    font-size: 1.1em; /* Tamanho confortável para a descrição */
+    line-height: 1.6; /* Melhora o espaçamento entre as linhas */
+    text-align: justify;
+}
+/* Estilo para a seção de materiais de cursos */
+.course-material {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px; /* Espaço entre os blocos de curso */
+    padding: 20px;
+    background-color: #f9f9f9; /* Fundo leve para destacar */
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+/* Estilo para a imagem do curso */
+.course-image img {
+    width: 150px; /* Tamanho médio da imagem */
+    height: auto;
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 20px; /* Espaço entre a imagem e o texto */
+}
+/* Estilo para o link e a descrição */
+.course-info {
+    max-width: 600px; /* Limita a largura da descrição */
+}
+.course-info h3 {
+    margin: 0;
+    font-size: 1.5em; /* Tamanho maior do título/link */
+    margin-bottom: 10px;
+}
+.course-info p {
+    font-size: 1.1em; /* Tamanho confortável para a descrição */
+    line-height: 1.6; /* Melhora o espaçamento entre as linhas */
+}

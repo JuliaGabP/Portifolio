@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="profile-section">
+    <div class="profile-image">
+        <img src="{{ url_for('static', filename='img/minha_foto.jpg') }}" alt="Minha Foto">
+    </div>
+    <div class="profile-text">
+        <p>
+            Olá! Meu nome é Julia, sou estudante de <strong>Engenharia de Software</strong> na 
+            <strong>Universidade de Brasília (UnB)</strong>, campus Gama. Atualmente, estou no sexto semestre e 
+            desenvolvendo meu conhecimento nas áreas de <strong>desenvolvimento web</strong> e <strong>análise de dados</strong>, que são 
+            minhas principais áreas de interesse.
+        </p>
+        <p>
+            No meu dia a dia, faço uso de diversas linguagens de programação, incluindo <strong>C</strong>, <strong>Python</strong>, 
+            <strong>HTML</strong> e <strong>CSS</strong>. Estou sempre buscando aprender e aprimorar minhas habilidades, e no momento 
+            estou também me dedicando a aprimorar meu <strong>inglês</strong>.
+        </p>
+        <p>
+            Para saber mais sobre meus projetos e acompanhar meu desenvolvimento, sinta-se à vontade para visitar meu 
+            <a href="https://github.com/JuliaGabP" target="_blank">GitHub</a>, onde publico alguns dos trabalhos e experimentos 
+            que faço.
+        </p>
+    </div>
+</div>
+
+{% endblock %}

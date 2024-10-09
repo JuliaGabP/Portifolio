@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Inglês{% endblock %}
+
+{% block content %}
+    <h2>Minhas anotações de inglês</h2>
+
+    <div class="english-material">
+        <div class="english-image">
+            <!-- Imagem ao lado do link -->
+            <img src="{{ url_for('static', filename='img/english_cover.jpg') }}" alt="Apostila de Inglês">
+        </div>
+
+        <div class="english-info">
+            <!-- Link para o PDF e descrição -->
+            <h3><a href="/pdfs/english1.pdf" target="_blank">Apostila 1</a></h3>
+            <p>
+                Esta é a minha primeira apostila de inglês. Ela contém anotações sobre gramática básica e vocabulário essencial para praticar. Ideal para iniciantes que estão aprendendo inglês e querem desenvolver uma base sólida.(Apostila em desenvolvimento ainda)
+            </p>
+        </div>
+    </div>
+{% endblock %}
