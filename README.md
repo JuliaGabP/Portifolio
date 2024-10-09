@@ -23,9 +23,10 @@ Certifique-se de ter o Python instalado no seu sistema.
 ### Passo a Passo
 Clone este repositório para o seu ambiente local:
 - Copiar código
-  - git clone https://github.com/JuliaGabP/Portifolio.git
+  - git clone https://github.com/JuliaGabP/Site_Portifolio.git
 - Navegue até o diretório do projeto:
-  - cd Portifolio
+  - cd Site_Portifolio
+  - cd meu_portifolio
 - Crie um ambiente virtual para o projeto (opcional, mas recomendado):
   - python -m venv venv
   - source venv/bin/activate  # No Windows use: venv\Scripts\activate
