@@ -1,4 +1,4 @@
-from flask import Flask, render_template, session
+from flask import Flask, render_template, session, send_from_directory
 from flask_session import Session
 
 app = Flask(__name__)
