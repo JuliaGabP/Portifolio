@@ -29,7 +29,7 @@ Clone este repositório para o seu ambiente local:
   - cd meu_portfolio
 - Crie um ambiente virtual para o projeto (opcional, mas recomendado):
   - python -m venv venv
-  - source venv/bin/activate  # No Windows use: venv\Scripts\activate
+  - source venv/bin/activate
 - Instale as dependências necessárias:
   - pip install -r requirements.txt
 - Execute o servidor app:
